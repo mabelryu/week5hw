@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex: 10%;
+    justify-content: space-evenly;
+  }
+
+.container2 {
+    display: flex;
+    flex: 25%;
+    justify-content: space-evenly;
+}
+  
+  .item {
+    flex-grow: 1; 
+  }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
